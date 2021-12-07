@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="540" started-at="2020-10-04T19:07:48 IST" finished-at="2020-10-04T19:07:49 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestngFeature.TestCaseFourth()[pri:3, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseFourth" class="com.dgsl.selenium.testngconcept.TestngFeature"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestngFeature.TestCaseFourth()[pri:3, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseFourth" class="com.dgsl.selenium.testngconcept.TestngFeature"/>
+        <method signature="TestngFeature.TestCaseThird()[pri:1, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseThird" class="com.dgsl.selenium.testngconcept.TestngFeature"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TestngFeature.TestCaseThird()[pri:1, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseThird" class="com.dgsl.selenium.testngconcept.TestngFeature"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="540" started-at="2020-10-04T19:07:48 IST" finished-at="2020-10-04T19:07:49 IST">
+      <class name="com.dgsl.selenium.testngconcept.TestngFeature">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="setExtent" is-config="true" duration-ms="191" started-at="2020-10-04T19:07:48 IST" finished-at="2020-10-04T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="TestCaseFourth()[pri:3, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseFourth" duration-ms="5" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseFourth -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="setTestResult" is-config="true" duration-ms="3" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCaseFourth status=SUCCESS method=TestngFeature.TestCaseFourth()[pri:3, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="TestCaseOne()[pri:4, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseOne" duration-ms="1" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseOne -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="setTestResult" is-config="true" duration-ms="1" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCaseOne status=SUCCESS method=TestngFeature.TestCaseOne()[pri:4, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="TestCaseOne()[pri:4, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseOne" duration-ms="1" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseOne -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="setTestResult" is-config="true" duration-ms="0" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCaseOne status=SUCCESS method=TestngFeature.TestCaseOne()[pri:4, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="TestCaseOne()[pri:4, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseOne" duration-ms="1" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseOne -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="setTestResult" is-config="true" duration-ms="0" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCaseOne status=SUCCESS method=TestngFeature.TestCaseOne()[pri:4, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="TestCaseOne()[pri:4, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseOne" duration-ms="1" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseOne -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="setTestResult" is-config="true" duration-ms="0" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCaseOne status=SUCCESS method=TestngFeature.TestCaseOne()[pri:4, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="TestCaseOne()[pri:4, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseOne" duration-ms="0" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseOne -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="setTestResult" is-config="true" duration-ms="0" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCaseOne status=SUCCESS method=TestngFeature.TestCaseOne()[pri:4, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="TestCaseSecond()[pri:2, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseSecond" duration-ms="7" started-at="2020-10-04T19:07:49 IST" depends-on-methods="com.dgsl.selenium.testngconcept.TestngFeature.TestCaseOne" finished-at="2020-10-04T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseSecond -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="setTestResult" is-config="true" duration-ms="0" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCaseSecond status=SUCCESS method=TestngFeature.TestCaseSecond()[pri:2, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="TestCaseThird()[pri:1, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseThird" duration-ms="0" started-at="2020-10-04T19:07:49 IST" depends-on-methods="com.dgsl.selenium.testngconcept.TestngFeature.TestCaseSecond" finished-at="2020-10-04T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseThird -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="setTestResult" is-config="true" duration-ms="1" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCaseThird status=SUCCESS method=TestngFeature.TestCaseThird()[pri:1, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="TestCaseFifth()[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="TestCaseFifth" duration-ms="1" depends-on-groups="Regression" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseFifth -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="setTestResult" is-config="true" duration-ms="1" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCaseFifth status=SUCCESS method=TestngFeature.TestCaseFifth()[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="endExtent()[pri:0, instance:com.dgsl.selenium.testngconcept.TestngFeature@36b4cef0]" name="endExtent" is-config="true" duration-ms="268" started-at="2020-10-04T19:07:49 IST" finished-at="2020-10-04T19:07:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+      </class> <!-- com.dgsl.selenium.testngconcept.TestngFeature -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
