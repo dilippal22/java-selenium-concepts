@@ -4,6 +4,17 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Set;
 
+/* 1. It is synchronized
+ * 2. Stores key-value pair
+ * 3. Key is defined as object. Each and every object is having unique HashCode. For that HashCode we define a value
+ * 4. Synchronized hence thread-safe
+ * 5. Accepts only unique value and no NULL key and NULL value
+ * 6. Synchronized hence slow
+ * 7. Traversed by Enumerator and Iterator
+ * 8. Not fail-fast
+ * 9. Inherits Dictionary class
+*/
+
 public class HashTableConcepts {
 
 	public static void main(String[] args) {

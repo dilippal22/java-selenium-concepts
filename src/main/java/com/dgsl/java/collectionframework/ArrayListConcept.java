@@ -4,12 +4,19 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
 
+/*
+ * 1. Allows duplicate elements
+ * 2. Maintains insertion order
+ * 3. Synchronized hence thread-safe
+ * 4. Allows random access of object retrieval based on index
+ * 5. Acts as list because implements List interface only
+ * 6. Element manipulation is slower
+ * 7. ArrayList is mainly used to store and access the data
+ */
+
 public class ArrayListConcept {
 
 	public static <E> void main(String[] args) {
-
-		// 1. Accepts duplicate value 2. Maintains insertion order 3. Synchronized hence
-		// thread-safe 4. Allows random access of object retrieval based on index
 
 		ArrayList<String> al = new ArrayList<String>();
 		al.add("Tom");

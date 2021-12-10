@@ -3,9 +3,19 @@ package com.dgsl.java.collectionframework;
 import java.util.Iterator;
 import java.util.LinkedList;
 
+/*
+ * 1. Accepts duplicate value
+ * 2. Maintains insertion order
+ * 3. Synchronized hence thread-safe
+ * 4. Allows random access of object retrieval based on index
+ * 5. Acts as list and queue both because implements List and Dequeue interface 
+ * 6. Element manipulation is faster
+ * 7. LinkedList is mainly used to manipulate the data
+ */
+
 public class LinkedListConcept {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {	
 
 		LinkedList<String> ll = new LinkedList<String>();
 		ll.add("John");
