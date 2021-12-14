@@ -17,7 +17,7 @@ public class PalindromeMethod2 {
 		temp = num;
 
 		while (num != 0) {
-			sum = sum * 10 + num % 10;
+			sum = num % 10 + sum * 10;
 			num = num / 10;
 		}
 

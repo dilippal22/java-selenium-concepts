@@ -2,6 +2,10 @@
 
 package com.dgsl.java.pattern;
 
+/**
+ * @author DilipP
+ *
+ */
 public class Pattern7 {
 
 	public static void main(String[] args) {

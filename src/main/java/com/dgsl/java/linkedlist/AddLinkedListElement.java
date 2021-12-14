@@ -16,7 +16,7 @@ public class AddLinkedListElement {
 		ll.add("Peter");
 
 		// iterate through element to print it
-		Iterator itr = ll.iterator();
+		Iterator<String> itr = ll.iterator();
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}

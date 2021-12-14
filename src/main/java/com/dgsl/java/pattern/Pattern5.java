@@ -10,6 +10,10 @@ package com.dgsl.java.pattern;
 
 import java.util.Scanner;
 
+/**
+ * @author DilipP
+ *
+ */
 public class Pattern5 {
 
 	public static void main(String[] args) {

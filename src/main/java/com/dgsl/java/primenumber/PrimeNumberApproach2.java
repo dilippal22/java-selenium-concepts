@@ -2,7 +2,12 @@
 
 package com.dgsl.java.primenumber;
 
+/**
+ * @author DilipP
+ *
+ */
 public class PrimeNumberApproach2 {
+	
 
 	static void checkPrime(int n) {
 

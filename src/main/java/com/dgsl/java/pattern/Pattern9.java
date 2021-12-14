@@ -10,6 +10,10 @@ package com.dgsl.java.pattern;
 
 import java.util.Scanner;
 
+/**
+ * @author DilipP
+ *
+ */
 public class Pattern9 {
 
 	public static void main(String[] args) {
@@ -21,14 +25,13 @@ public class Pattern9 {
 		for (int i = 1; i <= rows; i++) {
 			for (int j = rows; j >= 1; j--) {
 				if (j != i) {
-					System.out.println(j);
+					System.out.print(j + " ");
 				} else {
-					System.out.println("*");
+					System.out.print("*" + " ");
 				}
-				System.out.println("");
 			}
+			System.out.println("\n");
 		}
-
 		sc.close();
 
 	}

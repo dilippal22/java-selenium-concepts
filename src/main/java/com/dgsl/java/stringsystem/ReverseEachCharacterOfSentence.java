@@ -1,4 +1,4 @@
-/*Write a program to reverse each character of a word of a sentence : my name is dilip*/
+/*Write a program to reverse each alphabet of a word of a sentence : my name is dilip*/
 
 package com.dgsl.java.stringsystem;
 
