@@ -7,6 +7,10 @@ package com.dgsl.java.interview;
 
 import java.util.Scanner;
 
+/**
+ * @author DilipP
+ *
+ */
 public class PrintLongestWordFromSentence {
 
 	public static void main(String[] args) {

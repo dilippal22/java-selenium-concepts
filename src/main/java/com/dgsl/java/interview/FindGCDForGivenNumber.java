@@ -6,10 +6,11 @@ package com.dgsl.java.interview;
 
 import java.util.Scanner;
 
+/**
+ * @author DilipP
+ *
+ */
 public class FindGCDForGivenNumber {
-
-	// static int inputNum1;
-	// static int inputNum2;
 
 	public static int findGCD(int inputNum1, int inputNum2) {
 
