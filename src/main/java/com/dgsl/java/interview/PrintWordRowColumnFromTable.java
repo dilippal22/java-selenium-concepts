@@ -1,5 +1,9 @@
 package com.dgsl.java.interview;
 
+/**
+ * @author DilipP
+ *
+ */
 public class PrintWordRowColumnFromTable {
 
 	public static int printRowColumn(String[][] inputArray, String inputWord) {
