@@ -6,12 +6,11 @@ package com.dgsl.java.sorting;
 
 public class SelectionSort {
 
-	static void selectionSort(int selection[]) {
-		int size = selection.length;
-		int temp = 0;
+	public static void selectionSort(int selection[]) {
+		int temp;
 
-		for (int i = 0; i < size; i++) {
-			for (int j = i + 1; j < size; j++) {
+		for (int i = 0; i < selection.length; i++) {
+			for (int j = i + 1; j < selection.length; j++) {
 				if (selection[i] > selection[j]) {
 					temp = selection[i];
 					selection[i] = selection[j];

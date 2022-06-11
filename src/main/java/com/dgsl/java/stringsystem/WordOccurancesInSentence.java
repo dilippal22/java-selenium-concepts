@@ -1,4 +1,4 @@
-/*Write a program to print only repeated character in a given sentence.*/
+/*Write a program to print only repeated character in a given sentence: my name is java i think your name is also java*/
 
 package com.dgsl.java.stringsystem;
 
@@ -25,6 +25,7 @@ public class WordOccurancesInSentence {
 			} else {
 				map.put(ch, 1);
 			}
+			
 		}
 		sc.close();
 	}

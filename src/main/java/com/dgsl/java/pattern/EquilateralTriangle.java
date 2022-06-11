@@ -35,6 +35,7 @@ public class EquilateralTriangle {
 
 				System.out.print("*" + " ");
 			}
+
 			System.out.println();
 
 			forSpace = forSpace - 1;

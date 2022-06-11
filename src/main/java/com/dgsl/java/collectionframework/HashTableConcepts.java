@@ -14,6 +14,8 @@ import java.util.Set;
  * 7. Traversed by Enumerator and Iterator
  * 8. Not fail-fast
  * 9. Inherits Dictionary class
+ * 10. It stores Key-Value pair in hash table data structure which internally maintains array list.
+ * 11. Hash Code can be duplicate but Key and Value can never be duplicate.
 */
 
 public class HashTableConcepts {

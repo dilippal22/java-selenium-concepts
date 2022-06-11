@@ -24,7 +24,8 @@ public class FindGCDForGivenNumber {
 
 		if (inputNum1 > inputNum2)
 			return findGCD(inputNum1 - inputNum2, inputNum2);
-		return findGCD(inputNum1, inputNum2 - inputNum1);
+		else
+			return findGCD(inputNum1, inputNum2 - inputNum1);
 
 	}
 
@@ -38,7 +39,7 @@ public class FindGCDForGivenNumber {
 		System.out.println("Enter second input number: ");
 		int inputNum2 = sc.nextInt();
 
-		System.out.println(findGCD(inputNum1, inputNum2));
+		System.out.println("GCD value is: " + findGCD(inputNum1, inputNum2));
 
 		sc.close();
 

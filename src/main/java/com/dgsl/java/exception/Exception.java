@@ -10,7 +10,7 @@ public class Exception {
 			System.out.println("Executing from finally block");
 
 			// This is instructing the program to terminate
-//			System.exit(0);
+//		System.exit(0);
 		}
 	}
 

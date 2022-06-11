@@ -24,7 +24,8 @@ public class ArrayListConcept {
 		al.add("Martin");
 
 		System.out.println("*****Printing array list values for the very first time*****");
-		System.out.println(al.size());
+		System.out.println("Size is: " + al.size());
+		System.out.println(al);
 
 		al.add("Sam");
 		al.add("John");
@@ -32,11 +33,12 @@ public class ArrayListConcept {
 		al.add("Tom");
 
 		System.out.println("\n*****Printing after adding duplicate value*****");
-		System.out.println(al.size());
+		System.out.println("Size is: " + al.size());
+		System.out.println(al);
 
 		// Index based retrieval
 		System.out.println("\n*****Printing value based on index*****");
-		System.out.println(al.get(4));
+		System.out.println("At 4th position: " + al.get(4));
 
 		// To print all the values from array list using for loop
 		System.out.println("\n****Printing all the values from array list using for loop*****");

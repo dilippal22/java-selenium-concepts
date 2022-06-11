@@ -17,7 +17,7 @@ public class AddArrayListElement {
 		al.add("Matthew");
 
 		// Using iterator interface
-		Iterator itr = al.iterator();
+		Iterator<String> itr = al.iterator();
 		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}

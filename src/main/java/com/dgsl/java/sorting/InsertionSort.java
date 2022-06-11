@@ -5,11 +5,10 @@ package com.dgsl.java.sorting;
 public class InsertionSort {
 
 	public static void insertionSort(int insertion[]) {
-		int size = insertion.length;
 
-		for (int i = 1; i < size; i++) {
-			int key = insertion[i];
-			int j = i - 1;
+		for (int i = 1; i < insertion.length; i++) {
+			int key = insertion[i];		// 14
+			int j = i - 1;		// 0
 			while ((j > -1) && (insertion[j] > key)) {
 				insertion[j + 1] = insertion[j];
 				j--;

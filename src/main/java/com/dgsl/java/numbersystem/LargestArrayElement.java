@@ -3,7 +3,7 @@ package com.dgsl.java.numbersystem;
 public class LargestArrayElement {
 
 	public static void main(String[] args) {
-		// Program to fine largest number
+		// Program to find largest number
 		int temp = 0;
 		int arr[] = { 56, 23, 89, 45, 12, 78, 89 };
 

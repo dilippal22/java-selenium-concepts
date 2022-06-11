@@ -6,12 +6,11 @@ package com.dgsl.java.sorting;
 
 public class BubbleSortApproach2 {
 
-	public static void bubbleSort(int bubble[]) {
-		int size = bubble.length;
-		int temp = 0;
+	public static int[] bubbleSort(int bubble[]) {
+		int temp;
 
-		for (int i = 0; i < size; i++) {
-			for (int j = 1; j < size; j++) {
+		for (int i = 0; i < bubble.length; i++) {
+			for (int j = 1; j < bubble.length; j++) {
 				if (bubble[j - 1] > bubble[j]) {
 					temp = bubble[j - 1];
 					bubble[j - 1] = bubble[j];
@@ -19,6 +18,7 @@ public class BubbleSortApproach2 {
 				}
 			}
 		}
+		return bubble;
 	}
 
 	public static void main(String[] args) {

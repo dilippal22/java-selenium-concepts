@@ -2,6 +2,8 @@
 
 package com.dgsl.java.searching;
 
+import java.util.Arrays;
+
 public class BinarySearch {
 
 	public static void binarySearch(int binary[], int firstIndex,
@@ -25,16 +27,16 @@ public class BinarySearch {
 	}
 
 	public static void main(String[] args) {
-		// int bubble[] = { 9, 14, 3, 2, 43, 11, 58 };
+		 int binary[] = { 9, 14, 3, 2, 43, 11, 58, 22 };
 
 		// Sort the unsorted Array
-		// Arrays.sort(bubble);
+		 Arrays.sort(binary);
 
-		int bubble[] = { 2, 3, 9, 11, 14, 22, 43, 58 };
+		//int binary[] = { 9, 14, 3, 2, 43, 11, 58, 22 };
 
-		int key = 11;
-		int lastIndex = bubble.length - 1;
-		binarySearch(bubble, 0, lastIndex, key);
+		int key = 14;
+		int lastIndex = binary.length - 1;		// 7
+		binarySearch(binary, 0, lastIndex, key);
 	}
 
 }

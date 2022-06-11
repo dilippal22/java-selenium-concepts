@@ -10,14 +10,13 @@ public class PalindromeMethod2 {
 
 		int sum = 0, temp;
 		Scanner sc = new Scanner(System.in);
-		System.out
-				.println("Enter the number that you want to check for pallindrome");
+		System.out.println("Enter the number that you want to check for pallindrome");
 		int num = sc.nextInt();
-		
+
 		temp = num;
 
 		while (num != 0) {
-			sum = num % 10 + sum * 10;
+			sum = sum * 10 + num % 10;
 			num = num / 10;
 		}
 
