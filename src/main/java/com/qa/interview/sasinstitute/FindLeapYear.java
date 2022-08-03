@@ -18,29 +18,14 @@ public class FindLeapYear {
 
 		sc.close();
 
-		boolean flag = false;
 		int count = 0;
 
 		for (int i = startYear; i <= endYear; i++) {
 
-			if (startYear % 4 == 0) {
-				flag = true;
-			} else if (startYear % 100 == 0) {
-				flag = false;
-			} else if (startYear % 4 == 0) {
-				flag = true;
-			} else {
-				flag = true;
+			if (i % 4 == 0) {
+				count++;
 			}
 		}
-
-		if (flag) {
-			count++;
-			System.out.println("Total leap years for the given year range is: " + count);
-		}else{
-			System.out.println("Not a leap year!");
-		}
-
+		System.out.println("Total leap years for the given year range is: " + count);
 	}
-
 }
