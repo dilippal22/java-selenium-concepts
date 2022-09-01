@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class PrintVowelCount {
 
 	public static void vowelCountMethodTwo(char[] charInputArray) {
+		
 		int count = 0;
 
 		for (int i = 0; i < charInputArray.length; i++) {
@@ -14,6 +15,20 @@ public class PrintVowelCount {
 			if (charInputArray[i] == 'a' || charInputArray[i] == 'e' || charInputArray[i] == 'i'
 					|| charInputArray[i] == 'o' || charInputArray[i] == 'u') {
 				count++;
+			}
+		}
+		System.out.println("Vowel Count is: " + count);
+	}
+
+	public static void checkVowelCount(String inputString, String vowels) {
+		
+		int count = 0;
+
+		for (int i = 0; i < inputString.length(); i++) {
+			for (int j = 0; j < vowels.length(); j++) {
+				if (inputString.charAt(i) == vowels.charAt(j)) {
+					count++;
+				}
 			}
 		}
 		System.out.println("Vowel Count is: " + count);
@@ -27,11 +42,17 @@ public class PrintVowelCount {
 
 		String inputString = sc.nextLine();
 
+		System.out.println("Enter the vowels:");
+
+		String vowels = sc.nextLine();
+
 		sc.close();
 
 		char[] charInputArray = inputString.toCharArray();
 
 		vowelCountMethodTwo(charInputArray);
+
+		checkVowelCount(inputString, vowels);
 
 	}
 
